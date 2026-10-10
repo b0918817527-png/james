@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakuna Fan Club | 結城さくな 非公式應援部落格</title>
+    <style>
+        :root {
+            --primary-color: #ff9ebb;
+            --secondary-color: #ffd1dc;
+            --accent-color: #ff5277;
+            --bg-color: #fff9fa;
+            --card-bg: #ffffff;
+            --text-color: #4a4a4a;
+            --title-color: #2b2b2b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .post {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .post-title {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px dashed var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .post-date {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        .post p {
+            margin-bottom: 1rem;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .widget {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .widget-title {
+            color: var(--title-color);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            position: relative;
+            padding-left: 10px;
+        }
+
+        .widget-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 20%;
+            height: 60%;
+            width: 4px;
+            background-color: var(--accent-color);
+            border-radius: 2px;
+        }
+
+        .profile-card {
+            text-align: center;
+        }
+
+        .profile-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: var(--secondary-color);
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+            border: 3px solid var(--primary-color);
+        }
+
+        .social-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .social-links a {
+            display: block;
+            padding: 0.6rem 1rem;
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--secondary-color);
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--accent-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌸 結城さくな Fan Club</h1>
+        <p>歡迎來到結城さくな（Yuuki Sakuna）非公式應援網誌！</p>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <article class="post">
+                <span class="tag">簡介</span><span class="tag">VTuber</span>
+                <h2 class="post-title">關於 結城さくな (Yuuki Sakuna)</h2>
+                <div class="post-date">發佈時間：2024-10-27</div>
+                <p><strong>結城さくな（Yuuki Sakuna）</strong> 是一名個人勢日籍 VTuber。以亮眼的粉髮雙馬尾形象與甜美且具辨識度的聲音，在初次亮相時就吸引了廣大粉絲的關注。</p>
+                <p>她的直播內容主要涵蓋遊戲實況、歌唱直播（歌枠）以及聊天互動。憑藉著出色的遊戲技術與親切活潑的性格，迅速獲得了大量的訂閱與支持。</p>
+            </article>
+
+            <article class="post">
+                <span class="tag">特色</span><span class="tag">直播亮點</span>
+                <h2 class="post-title">結城さくな 的魅力所在</h2>
+                <div class="post-date">發佈時間：2024-10-27</div>
+                <p>🌸 <strong>可愛與反差兼具：</strong> 外表非常可愛甜美，但在遊玩高難度遊戲時展現出的專注與毅力令人印象深刻。</p>
+                <p>🎶 <strong>療癒系歌聲：</strong> 歌唱直播時的聲音表現力極佳，不管是流行曲或是動漫歌曲都能完美駕馭。</p>
+                <p>💬 <strong>與觀眾的互動：</strong> 聊天時氣氛輕鬆愉快，對留言的反應非常迅速且有趣，給人一種親切感。</p>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div class="widget profile-card">
+                <div class="profile-avatar">🌸</div>
+                <h3>結城さくな</h3>
+                <p style="font-size: 0.85rem; color: #666; margin: 0.5rem 0 1rem;">Yuuki Sakuna</p>
+                <p>粉紅色貓耳/粉髮雙馬尾少女，喜歡遊戲與唱歌！</p>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">官方頻道 & 社群</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.youtube.com/" target="_blank">YouTube 頻道</a></li>
+                    <li><a href="https://x.com/" target="_blank">X (Twitter) 帳號</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 結城さくな Fan Blog | 本站為粉絲製作之非公式網頁</p>
+    </footer>
+
+</body>
+</html>
